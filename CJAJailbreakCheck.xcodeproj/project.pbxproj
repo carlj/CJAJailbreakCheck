@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA46EFB01807DBF300B37747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFAF1807DBF300B37747 /* Foundation.framework */; };
+		FA46EFB21807DBF300B37747 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFB11807DBF300B37747 /* CoreGraphics.framework */; };
+		FA46EFB41807DBF300B37747 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFB31807DBF300B37747 /* UIKit.framework */; };
+		FA46EFBC1807DBF300B37747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46EFBB1807DBF300B37747 /* main.m */; };
+		FA46EFC01807DBF300B37747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46EFBF1807DBF300B37747 /* AppDelegate.m */; };
+		FA46EFC91807DBF300B37747 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46EFC81807DBF300B37747 /* ExampleViewController.m */; };
+		FA46EFD21807DBF300B37747 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFD11807DBF300B37747 /* XCTest.framework */; };
+		FA46EFD31807DBF300B37747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFAF1807DBF300B37747 /* Foundation.framework */; };
+		FA46EFD41807DBF300B37747 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA46EFB31807DBF300B37747 /* UIKit.framework */; };
+		FA46EFE91807DC8400B37747 /* UIDevice+Jailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46EFE81807DC8400B37747 /* UIDevice+Jailbreak.m */; };
+		FA46EFEA1807DC8400B37747 /* UIDevice+Jailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46EFE81807DC8400B37747 /* UIDevice+Jailbreak.m */; };
+		FA9E07331807DDE1001FE330 /* CJAJailbreakCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E07321807DDE1001FE330 /* CJAJailbreakCheckTests.m */; };
+		FA9E07351807DDED001FE330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9E07341807DDED001FE330 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA46EFD51807DBF300B37747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA46EFA41807DBF300B37747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA46EFAB1807DBF300B37747;
+			remoteInfo = CJAJailbreakCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA46EFAC1807DBF300B37747 /* CJAJailbreakCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJAJailbreakCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA46EFAF1807DBF300B37747 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA46EFB11807DBF300B37747 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA46EFB31807DBF300B37747 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA46EFB71807DBF300B37747 /* CJAJailbreakCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CJAJailbreakCheck-Info.plist"; path = "Example/Other Sources/CJAJailbreakCheck-Info.plist"; sourceTree = "<group>"; };
+		FA46EFBB1807DBF300B37747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Example/Other Sources/main.m"; sourceTree = "<group>"; };
+		FA46EFBD1807DBF300B37747 /* CJAJailbreakCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CJAJailbreakCheck-Prefix.pch"; path = "Example/Other Sources/CJAJailbreakCheck-Prefix.pch"; sourceTree = "<group>"; };
+		FA46EFBE1807DBF300B37747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		FA46EFBF1807DBF300B37747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/Classes/AppDelegate.m; sourceTree = "<group>"; };
+		FA46EFC71807DBF300B37747 /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ExampleViewController.h; path = Example/Classes/ExampleViewController.h; sourceTree = "<group>"; };
+		FA46EFC81807DBF300B37747 /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ExampleViewController.m; path = Example/Classes/ExampleViewController.m; sourceTree = "<group>"; };
+		FA46EFD01807DBF300B37747 /* CJAJailbreakCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJAJailbreakCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA46EFD11807DBF300B37747 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA46EFE71807DC8400B37747 /* UIDevice+Jailbreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Jailbreak.h"; sourceTree = "<group>"; };
+		FA46EFE81807DC8400B37747 /* UIDevice+Jailbreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Jailbreak.m"; sourceTree = "<group>"; };
+		FA9E07311807DDDA001FE330 /* CJAJailbreakCheckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CJAJailbreakCheckTests-Info.plist"; path = "Tests/Other Sources/CJAJailbreakCheckTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FA9E07321807DDE1001FE330 /* CJAJailbreakCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJAJailbreakCheckTests.m; path = Tests/CJAJailbreakCheckTests.m; sourceTree = SOURCE_ROOT; };
+		FA9E07341807DDED001FE330 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Ressources/Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA46EFA91807DBF300B37747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46EFB21807DBF300B37747 /* CoreGraphics.framework in Frameworks */,
+				FA46EFB41807DBF300B37747 /* UIKit.framework in Frameworks */,
+				FA46EFB01807DBF300B37747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA46EFCD1807DBF300B37747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46EFD21807DBF300B37747 /* XCTest.framework in Frameworks */,
+				FA46EFD41807DBF300B37747 /* UIKit.framework in Frameworks */,
+				FA46EFD31807DBF300B37747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA46EFA31807DBF300B37747 = {
+			isa = PBXGroup;
+			children = (
+				FA46EFB51807DBF300B37747 /* CJAJailbreakCheck */,
+				FA46EFEB1807DCE800B37747 /* Example */,
+				FA46EFD71807DBF300B37747 /* CJAJailbreakCheckTests */,
+				FA46EFAE1807DBF300B37747 /* Frameworks */,
+				FA46EFAD1807DBF300B37747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA46EFAD1807DBF300B37747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFAC1807DBF300B37747 /* CJAJailbreakCheck.app */,
+				FA46EFD01807DBF300B37747 /* CJAJailbreakCheckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA46EFAE1807DBF300B37747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFAF1807DBF300B37747 /* Foundation.framework */,
+				FA46EFB11807DBF300B37747 /* CoreGraphics.framework */,
+				FA46EFB31807DBF300B37747 /* UIKit.framework */,
+				FA46EFD11807DBF300B37747 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA46EFB51807DBF300B37747 /* CJAJailbreakCheck */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFE71807DC8400B37747 /* UIDevice+Jailbreak.h */,
+				FA46EFE81807DC8400B37747 /* UIDevice+Jailbreak.m */,
+			);
+			path = CJAJailbreakCheck;
+			sourceTree = "<group>";
+		};
+		FA46EFD71807DBF300B37747 /* CJAJailbreakCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E07321807DDE1001FE330 /* CJAJailbreakCheckTests.m */,
+				FA46EFD81807DBF300B37747 /* Other Sources */,
+			);
+			path = CJAJailbreakCheckTests;
+			sourceTree = "<group>";
+		};
+		FA46EFD81807DBF300B37747 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E07311807DDDA001FE330 /* CJAJailbreakCheckTests-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FA46EFEB1807DCE800B37747 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFEC1807DCEC00B37747 /* Classes */,
+				FA46EFEE1807DCF800B37747 /* Other Sources */,
+				FA46EFED1807DCF000B37747 /* Ressources */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		FA46EFEC1807DCEC00B37747 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFC71807DBF300B37747 /* ExampleViewController.h */,
+				FA46EFC81807DBF300B37747 /* ExampleViewController.m */,
+				FA46EFBE1807DBF300B37747 /* AppDelegate.h */,
+				FA46EFBF1807DBF300B37747 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FA46EFED1807DCF000B37747 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E07341807DDED001FE330 /* Images.xcassets */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		FA46EFEE1807DCF800B37747 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA46EFB71807DBF300B37747 /* CJAJailbreakCheck-Info.plist */,
+				FA46EFBB1807DBF300B37747 /* main.m */,
+				FA46EFBD1807DBF300B37747 /* CJAJailbreakCheck-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA46EFAB1807DBF300B37747 /* CJAJailbreakCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA46EFE11807DBF300B37747 /* Build configuration list for PBXNativeTarget "CJAJailbreakCheck" */;
+			buildPhases = (
+				FA46EFA81807DBF300B37747 /* Sources */,
+				FA46EFA91807DBF300B37747 /* Frameworks */,
+				FA46EFAA1807DBF300B37747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJAJailbreakCheck;
+			productName = CJAJailbreakCheck;
+			productReference = FA46EFAC1807DBF300B37747 /* CJAJailbreakCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA46EFCF1807DBF300B37747 /* CJAJailbreakCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA46EFE41807DBF300B37747 /* Build configuration list for PBXNativeTarget "CJAJailbreakCheckTests" */;
+			buildPhases = (
+				FA46EFCC1807DBF300B37747 /* Sources */,
+				FA46EFCD1807DBF300B37747 /* Frameworks */,
+				FA46EFCE1807DBF300B37747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA46EFD61807DBF300B37747 /* PBXTargetDependency */,
+			);
+			name = CJAJailbreakCheckTests;
+			productName = CJAJailbreakCheckTests;
+			productReference = FA46EFD01807DBF300B37747 /* CJAJailbreakCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA46EFA41807DBF300B37747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Carl Jahn";
+				TargetAttributes = {
+					FA46EFCF1807DBF300B37747 = {
+						TestTargetID = FA46EFAB1807DBF300B37747;
+					};
+				};
+			};
+			buildConfigurationList = FA46EFA71807DBF300B37747 /* Build configuration list for PBXProject "CJAJailbreakCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA46EFA31807DBF300B37747;
+			productRefGroup = FA46EFAD1807DBF300B37747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA46EFAB1807DBF300B37747 /* CJAJailbreakCheck */,
+				FA46EFCF1807DBF300B37747 /* CJAJailbreakCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA46EFAA1807DBF300B37747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E07351807DDED001FE330 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA46EFCE1807DBF300B37747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA46EFA81807DBF300B37747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46EFC91807DBF300B37747 /* ExampleViewController.m in Sources */,
+				FA46EFE91807DC8400B37747 /* UIDevice+Jailbreak.m in Sources */,
+				FA46EFC01807DBF300B37747 /* AppDelegate.m in Sources */,
+				FA46EFBC1807DBF300B37747 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA46EFCC1807DBF300B37747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E07331807DDE1001FE330 /* CJAJailbreakCheckTests.m in Sources */,
+				FA46EFEA1807DC8400B37747 /* UIDevice+Jailbreak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA46EFD61807DBF300B37747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA46EFAB1807DBF300B37747 /* CJAJailbreakCheck */;
+			targetProxy = FA46EFD51807DBF300B37747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA46EFDF1807DBF300B37747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA46EFE01807DBF300B37747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA46EFE21807DBF300B37747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAJailbreakCheck-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Other Sources/CJAJailbreakCheck-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA46EFE31807DBF300B37747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAJailbreakCheck-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Other Sources/CJAJailbreakCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA46EFE51807DBF300B37747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAJailbreakCheck.app/CJAJailbreakCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAJailbreakCheck-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Other Sources/CJAJailbreakCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA46EFE61807DBF300B37747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAJailbreakCheck.app/CJAJailbreakCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAJailbreakCheck-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Other Sources/CJAJailbreakCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA46EFA71807DBF300B37747 /* Build configuration list for PBXProject "CJAJailbreakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA46EFDF1807DBF300B37747 /* Debug */,
+				FA46EFE01807DBF300B37747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA46EFE11807DBF300B37747 /* Build configuration list for PBXNativeTarget "CJAJailbreakCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA46EFE21807DBF300B37747 /* Debug */,
+				FA46EFE31807DBF300B37747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA46EFE41807DBF300B37747 /* Build configuration list for PBXNativeTarget "CJAJailbreakCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA46EFE51807DBF300B37747 /* Debug */,
+				FA46EFE61807DBF300B37747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA46EFA41807DBF300B37747 /* Project object */;
+}
