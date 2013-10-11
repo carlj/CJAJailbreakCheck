@@ -18,16 +18,13 @@ First of all take a look at the [Example Project](Example/Classes/ExampleViewCon
 ```
 
 ``` objc
-//check if the current device has an jailbreak
+//check if the current device has a jailbreak
 BOOL result = [UIDevice currentDevice].isJailbreaked;
 if (result) {
 
 	//The device is jailbreaked
 }
 ```
-
-##Note
-Please note that the retunr value is always ```NO```if you call the method from a non distrubution app version (eg. Adhoc, Debug or Release build).
 
 ##LICENSE
 Released under the [MIT LICENSE](LICENSE)
